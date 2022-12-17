@@ -14,8 +14,8 @@ module.exports = {
     },
     devtool: 'source-map',
     module: {  // module object
-        rules: [  // rules array for each file type (ex. scss)
-            { // add a test value as a regular expression (any files that end with this extension .scss)
+        rules: [  // rules array for each file type (ex. css)
+            { // add a test value as a regular expression (any files that end with this extension .css)
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader', 'sass-loader'], // apply loaders
             },
@@ -27,7 +27,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Webpack App',
+            title: 'My Restaurant Page',
             filename: "index.html",
             template: "src/template.html"
         }),
