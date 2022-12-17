@@ -27,7 +27,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'My Restaurant Page',
+            title: 'My Chicken-Nuggets Page',
             filename: "index.html",
             template: "src/template.html"
         }),

@@ -6,17 +6,54 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-rows: 10vh 70vh 20vh;
 }
 
 header {
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-self: end;
+}
+
+li {
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/chicken-nuggets.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+h1 {
+  color: #6DB23F;
+  font-size: 3.052rem
 }
 
 main {
-    background-color: yellow;
+
 }
 
 footer {
-    background-color: red;
+    background-color: #EEF327;
 }
+
+.tab-list {
+    display: flex
+}
+
