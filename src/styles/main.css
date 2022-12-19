@@ -81,6 +81,7 @@ li:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 35px;
+    padding: 50px 0 100px ;
 }
 
 .menu-tiles {
@@ -111,7 +112,8 @@ img {
 }
 
 .menu > h2, .menu > p {
-    align-self: start;
+    /*align-self: baseline;*/
+
 }
 
 h1 {
@@ -124,7 +126,29 @@ h2 {
 }
 
 main {
+    background-color: #ffffff
+}
 
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.contact > h2 {
+    color: #ffffff;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 850px;
+    width: 70%
 }
 
 footer {
