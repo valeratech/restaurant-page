@@ -139,6 +139,7 @@ main {
 
 .contact > h2 {
     color: #ffffff;
+    padding: 40px;
 }
 
 .contact-info {
@@ -147,7 +148,7 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    height: 850px;
+    height: 890px;
     width: 70%
 }
 
