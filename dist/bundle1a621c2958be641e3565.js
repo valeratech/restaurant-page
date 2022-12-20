@@ -771,6 +771,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+(0,_home_js__WEBPACK_IMPORTED_MODULE_2__.toggleHome)();
 const tabList = document.querySelector('.tab-list');
 tabList.addEventListener('click', (e) => {
     if (e.target.id === 'home') {
@@ -787,4 +788,4 @@ tabList.addEventListener('click', (e) => {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle2f2a603d8704746e765a.js.map
+//# sourceMappingURL=bundle1a621c2958be641e3565.js.map

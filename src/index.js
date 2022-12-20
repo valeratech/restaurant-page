@@ -2,6 +2,7 @@ import './styles/main.css'
 import {toggleContact} from './contact.js'
 import {toggleHome} from './home.js'
 
+toggleHome();
 const tabList = document.querySelector('.tab-list');
 tabList.addEventListener('click', (e) => {
     if (e.target.id === 'home') {
