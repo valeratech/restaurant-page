@@ -582,6 +582,37 @@ function toggleContact() {
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "toggleHome": () => (/* binding */ toggleHome)
+/* harmony export */ });
+function toggleHome() {
+    const myContent = document.querySelector('#content');
+    const myContact = document.querySelector('.contact');
+    myContent.removeChild(myContent.firstElementChild);
+    const article = document.createElement('article');
+    article.className = 'home';
+    const infoBox = document.createElement('info-box');
+    infoBox.className = 'info-box';
+    const headerTwo = document.createElement('h2');
+    headerTwo.textContent = 'BEST NUGGETS EVER';
+    const paragraph = document.createElement('p');
+    paragraph.textContent = 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.';
+    const contentDiv = document.getElementById('content');
+    contentDiv.append(article);
+    article.append(infoBox);
+    infoBox.append(headerTwo);
+    infoBox.append(paragraph);
+}
+
+/***/ }),
+
 /***/ "./src/assets/chicken-nuggets.jpg":
 /*!****************************************!*\
   !*** ./src/assets/chicken-nuggets.jpg ***!
@@ -735,6 +766,7 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.js */ "./src/contact.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
 
 
 
@@ -742,7 +774,7 @@ __webpack_require__.r(__webpack_exports__);
 const tabList = document.querySelector('.tab-list');
 tabList.addEventListener('click', (e) => {
     if (e.target.id === 'home') {
-        toggleHome();
+        (0,_home_js__WEBPACK_IMPORTED_MODULE_2__.toggleHome)();
     } else if (e.target.id === 'contact') {
         (0,_contact_js__WEBPACK_IMPORTED_MODULE_1__.toggleContact)();
     }
@@ -755,4 +787,4 @@ tabList.addEventListener('click', (e) => {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlec0ce173f20cf10fede7c.js.map
+//# sourceMappingURL=bundle2f2a603d8704746e765a.js.map
