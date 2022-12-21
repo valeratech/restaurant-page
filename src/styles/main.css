@@ -7,7 +7,7 @@
 
 body {
     display: grid;
-    grid-template-rows: 1fr 6fr .5fr;
+    grid-template-rows: 200px 6fr .5fr;
     font-family: 'Mitr', sans-serif;
     background-color: #EEF327;
 
