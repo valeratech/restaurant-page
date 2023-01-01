@@ -648,60 +648,60 @@ function toggleMenu() {
 
 
     let subHeader2 = document.createElement('h4')
-    subHeader2.textContent = 'Small Chicken Nuggets'
+    subHeader2.textContent = 'Medium Chicken Nuggets'
     let paragraph2 = document.createElement('p');
     paragraph2.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price2 = document.createElement('p');
-    price2.textContent = '$3.39 · 230 cals';
+    price2.textContent = '$4.39 · 300 cals';
 
     let subHeader3 = document.createElement('h4')
-    subHeader3.textContent = 'Small Chicken Nuggets'
+    subHeader3.textContent = 'Large Chicken Nuggets'
     let paragraph3 = document.createElement('p');
     paragraph3.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price3 = document.createElement('p');
-    price3.textContent = '$3.39 · 230 cals';
+    price3.textContent = '$6.39 · 600 cals';
 
     let subHeader4 = document.createElement('h4')
-    subHeader4.textContent = 'Small Chicken Nuggets'
+    subHeader4.textContent = 'Extra-Large Chicken Nuggets'
     let paragraph4 = document.createElement('p');
     paragraph4.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price4 = document.createElement('p');
-    price4.textContent = '$3.39 · 230 cals';
+    price4.textContent = '$8.39 · 900 cals';
 
     let subHeader5 = document.createElement('h4')
-    subHeader5.textContent = 'Small Chicken Nuggets'
+    subHeader5.textContent = 'Kids Chicken Nuggets'
     let paragraph5 = document.createElement('p');
     paragraph5.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price5 = document.createElement('p');
-    price5.textContent = '$3.39 · 230 cals';
+    price5.textContent = '$2.39 · 170 cals';
 
     let subHeader6 = document.createElement('h4')
-    subHeader6.textContent = 'Small Chicken Nuggets'
+    subHeader6.textContent = 'Extra Chicken Nuggets'
     let paragraph6 = document.createElement('p');
     paragraph6.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price6 = document.createElement('p');
-    price6.textContent = '$3.39 · 230 cals';
+    price6.textContent = '$1.39 · 120 cals';
 
     let subHeader7 = document.createElement('h4')
-    subHeader7.textContent = 'Small Chicken Nuggets'
+    subHeader7.textContent = 'Side of Chicken Nuggets'
     let paragraph7 = document.createElement('p');
     paragraph7.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price7 = document.createElement('p');
-    price7.textContent = '$3.39 · 230 cals';
-
-    let subHeader8 = document.createElement('h4')
-    subHeader8.textContent = 'Small Chicken Nuggets'
-    let paragraph8 = document.createElement('p');
-    paragraph8.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
-    let price8 = document.createElement('p');
-    price8.textContent = '$3.39 · 230 cals';
+    price7.textContent = '$3.39 · 240 cals';
 
     let subHeader9 = document.createElement('h4')
-    subHeader9.textContent = 'Small Chicken Nuggets'
+    subHeader9.textContent = 'Chicken Nuggets w/side of Chicken Nuggets'
     let paragraph9 = document.createElement('p');
     paragraph9.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
     let price9 = document.createElement('p');
-    price9.textContent = '$3.39 · 230 cals';
+    price9.textContent = '$12.39 · 840 cals';
+
+    let subHeader8 = document.createElement('h4')
+    subHeader8.textContent = 'Party-Platter Chicken Nuggets'
+    let paragraph8 = document.createElement('p');
+    paragraph8.textContent = 'Crispy, whole white-meat bites served with honey mustard or BBQ (contains milk, wheat, soy, and gluten)'
+    let price8 = document.createElement('p');
+    price8.textContent = '$40.39 · 300 cals';
 
     const menuList = [
         [subHeader1, paragraph1, price1],
@@ -724,7 +724,7 @@ function toggleMenu() {
         menuBox.appendChild(menuTile);
 
         let menuImg = document.createElement('div');
-        menuImg.className = 'menu-image';
+        menuImg.className = 'menu-img';
         let image = document.createElement('img');
         image.src = '../src/assets/menu-nuggets1.jpg';
         image.alt = 'Delicious looking nuggets';
@@ -923,4 +923,4 @@ tabList.addEventListener('click', (e) => {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle436c62e0c07b3e320bf5.js.map
+//# sourceMappingURL=bundle72f67a34dd31549fa979.js.map
