@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Mitr&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  display: grid;\n  grid-template-rows: 200px 6fr 0.5fr;\n  font-family: \"Mitr\", sans-serif;\n  background-color: #EEF327;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #ffffff;\n}\n\nnav {\n  display: flex;\n  justify-content: space-between;\n  width: 80%;\n}\n\nul {\n  list-style: none;\n  align-self: end;\n  padding-bottom: 15px;\n}\n\nli {\n  margin-left: 50px;\n  font: 1.563rem bolder;\n  font-family: \"Mitr\", sans-serif;\n  color: inherit;\n  text-decoration: underline 3px rgba(109, 178, 63, 0);\n  transition: text-decoration-color 300ms;\n}\n\nli:hover {\n  color: #6DB23F;\n  text-decoration-color: rgb(109, 178, 63);\n  cursor: pointer;\n}\n\n.home {\n  display: flex;\n  align-items: center;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center center fixed;\n  background-size: cover;\n  height: 90vh;\n}\n\n.info-box {\n  margin-left: 300px;\n  background-color: #000000;\n  color: #ffffff;\n  opacity: 0.85;\n  padding: 30px 40px;\n  max-width: 700px;\n}\n\n.info-box > p {\n  font-size: 1.25rem;\n}\n\n.menu {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.menu-box {\n  max-width: 1500px;\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));\n  grid-gap: 35px;\n  padding: 50px 0 100px;\n}\n\n.menu-tiles {\n  /*display: flex;*/\n  /*flex-direction: column;*/\n}\n\n.menu-img {\n  border: solid 1px #cecece;\n  border-bottom: none;\n  border-top-right-radius: 25px;\n  border-top-left-radius: 25px;\n}\n\n.menu-text {\n  border: solid 1px #cecece;\n  border-bottom-left-radius: 25px;\n  border-bottom-right-radius: 25px;\n  border-top: none;\n  padding: 15px;\n}\n\nimg {\n  max-width: 100%;\n  max-height: 100%;\n  object-fit: contain;\n  border-radius: 25px;\n}\n\n.menu > h2, .menu > p {\n  /*align-self: baseline;*/\n}\n\nh1 {\n  color: #6DB23F;\n  font-size: 3.052rem;\n}\n\nh2 {\n  font-size: 3.815rem;\n}\n\nmain {\n  background-color: #ffffff;\n}\n\n.contact {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  align-items: center;\n  background-color: #000000;\n}\n\n.contact > h2 {\n  color: #ffffff;\n  padding: 40px;\n}\n\n.contact-info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  background-color: #ffffff;\n  height: 890px;\n  width: 70%;\n}\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #EEF327;\n  border-top-left-radius: 50px;\n  border-top-right-radius: 50px;\n  position: relative;\n  bottom: 40px;\n}\n\n.tab-list {\n  display: flex;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;EACI,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,aAAA;EACA,mCAAA;EACA,+BAAA;EACA,yBAAA;AACJ;;AAGA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yBAAA;AAAJ;;AAGA;EACI,aAAA;EACA,8BAAA;EACA,UAAA;AAAJ;;AAIA;EACI,gBAAA;EACA,eAAA;EACA,oBAAA;AADJ;;AAIA;EACI,iBAAA;EACA,qBAAA;EACA,+BAAA;EACA,cAAA;EACA,oDAAA;EACA,uCAAA;AADJ;;AAIA;EACI,cAAA;EACA,wCAAA;EACA,eAAA;AADJ;;AAIA;EACI,aAAA;EACA,mBAAA;EACA,iFAAA;EACA,sBAAA;EACA,YAAA;AADJ;;AAIA;EACI,kBAAA;EACA,yBAAA;EACA,cAAA;EACA,aAAA;EACA,kBAAA;EACA,gBAAA;AADJ;;AAIA;EACI,kBAAA;AADJ;;AAIA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;AADJ;;AAIA;EACI,iBAAA;EACA,aAAA;EACA,4DAAA;EACA,cAAA;EACA,qBAAA;AADJ;;AAIA;EACI,iBAAA;EACA,0BAAA;AADJ;;AAIA;EACI,yBAAA;EACA,mBAAA;EACA,6BAAA;EACA,4BAAA;AADJ;;AAIA;EACI,yBAAA;EACA,+BAAA;EACA,gCAAA;EACA,gBAAA;EACA,aAAA;AADJ;;AAIA;EACI,eAAA;EACA,gBAAA;EACA,mBAAA;EACA,mBAAA;AADJ;;AAIA;EACI,wBAAA;AADJ;;AAKA;EACI,cAAA;EACA,mBAAA;AAFJ;;AAKA;EACI,mBAAA;AAFJ;;AAKA;EACI,yBAAA;AAFJ;;AAKA;EACI,aAAA;EACA,uBAAA;EACA,sBAAA;EACA,mBAAA;EACA,yBAAA;AAFJ;;AAKA;EACI,cAAA;EACA,aAAA;AAFJ;;AAKA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,yBAAA;EACA,aAAA;EACA,UAAA;AAFJ;;AAKA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yBAAA;EACA,4BAAA;EACA,6BAAA;EACA,kBAAA;EACA,YAAA;AAFJ;;AAKA;EACI,aAAA;AAFJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');\n* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    display: grid;\n    grid-template-rows: 200px 6fr .5fr;\n    font-family: 'Mitr', sans-serif;\n    background-color: #EEF327;\n\n}\n\nheader {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ffffff;\n}\n\nnav {\n    display: flex;\n    justify-content: space-between;\n    width: 80%;\n\n}\n\nul {\n    list-style: none;\n    align-self: end;\n    padding-bottom: 15px;\n}\n\nli {\n    margin-left: 50px;\n    font: 1.563rem bolder;\n    font-family: 'Mitr', sans-serif;\n    color: inherit;\n    text-decoration: underline 3px rgba(109, 178, 63, 0);\n    transition: text-decoration-color 300ms;\n}\n\nli:hover {\n    color: #6DB23F;\n    text-decoration-color: rgba(109, 178, 63, 1);\n    cursor: pointer;\n}\n\n.home {\n    display: flex;\n    align-items: center;\n    background: url(\"../assets/chicken-nuggets.jpg\") no-repeat center center fixed;\n    background-size: cover;\n    height: 90vh;\n}\n\n.info-box {\n    margin-left: 300px;\n    background-color: #000000;\n    color: #ffffff;\n    opacity: .85;\n    padding: 30px 40px;\n    max-width: 700px;\n}\n\n.info-box > p {\n    font-size: 1.25rem;\n}\n\n.menu {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n\n.menu-box {\n    max-width: 1500px;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));\n    grid-gap: 35px;\n    padding: 50px 0 100px ;\n}\n\n.menu-tiles {\n    /*display: flex;*/\n    /*flex-direction: column;*/\n}\n\n.menu-img {\n    border: solid 1px #cecece;\n    border-bottom: none;\n    border-top-right-radius: 25px;\n    border-top-left-radius: 25px;\n}\n\n.menu-text {\n    border: solid 1px #cecece;\n    border-bottom-left-radius: 25px;\n    border-bottom-right-radius: 25px;\n    border-top: none;\n    padding: 15px;\n}\n\nimg {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 25px;\n}\n\n.menu > h2, .menu > p {\n    /*align-self: baseline;*/\n\n}\n\nh1 {\n    color: #6DB23F;\n    font-size: 3.052rem\n}\n\nh2 {\n    font-size: 3.815rem;\n}\n\nmain {\n    background-color: #ffffff\n}\n\n.contact {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    align-items: center;\n    background-color: #000000;\n}\n\n.contact > h2 {\n    color: #ffffff;\n    padding: 40px;\n}\n\n.contact-info {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    background-color: #ffffff;\n    height: 890px;\n    width: 70%\n}\n\nfooter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #EEF327;\n    border-top-left-radius: 50px;\n    border-top-right-radius: 50px;\n    position: relative;\n    bottom: 40px;\n}\n\n.tab-list {\n    display: flex\n}\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  display: grid;\n  grid-template-rows: 170px 6fr 150px;\n  font-family: \"Mitr\", sans-serif;\n  background-color: #EEF327;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #ffffff;\n}\n\nnav {\n  display: flex;\n  justify-content: space-between;\n  width: 80%;\n}\n\nul {\n  list-style: none;\n  align-self: end;\n  padding-bottom: 15px;\n}\n\nli {\n  margin-left: 50px;\n  font: 1.563rem bolder;\n  font-family: \"Mitr\", sans-serif;\n  color: inherit;\n  text-decoration: underline 3px rgba(109, 178, 63, 0);\n  transition: text-decoration-color 300ms;\n}\n\nli:hover {\n  color: #6DB23F;\n  text-decoration-color: rgb(109, 178, 63);\n  cursor: pointer;\n}\n\n.home {\n  display: flex;\n  align-items: center;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center center fixed;\n  background-size: cover;\n  height: 90vh;\n}\n\n.info-box {\n  margin-left: 300px;\n  background-color: #000000;\n  color: #ffffff;\n  opacity: 0.85;\n  padding: 30px 40px;\n  max-width: 700px;\n}\n\n.info-box > p {\n  font-size: 1.25rem;\n}\n\n.menu {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.menu-box {\n  max-width: 1500px;\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));\n  grid-gap: 35px;\n  padding: 50px 0 100px;\n}\n\n.menu-tiles {\n  /*display: flex;*/\n  /*flex-direction: column;*/\n}\n\n.menu-img {\n  border: solid 1px #cecece;\n  border-bottom: none;\n  border-top-right-radius: 25px;\n  border-top-left-radius: 25px;\n}\n\n.menu-text {\n  border: solid 1px #cecece;\n  border-bottom-left-radius: 25px;\n  border-bottom-right-radius: 25px;\n  border-top: none;\n  padding: 15px;\n}\n\nimg {\n  max-width: 100%;\n  max-height: 100%;\n  object-fit: contain;\n  border-radius: 25px;\n}\n\n.menu > h2, .menu > p {\n  /*align-self: baseline;*/\n}\n\nh1 {\n  color: #6DB23F;\n  font-size: 3.052rem;\n}\n\nh2 {\n  font-size: 3.815rem;\n}\n\nmain {\n  background-color: #ffffff;\n}\n\n.contact {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  align-items: center;\n  background-color: #000000;\n}\n\n.contact > h2 {\n  color: #ffffff;\n  padding: 40px;\n}\n\n.contact-info {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  background-color: #ffffff;\n  height: 890px;\n  width: 70%;\n}\n\nfooter {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #EEF327;\n  border-top-left-radius: 50px;\n  border-top-right-radius: 50px;\n  position: relative;\n  bottom: 40px;\n}\n\n.tab-list {\n  display: flex;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;EACI,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,aAAA;EACA,mCAAA;EACA,+BAAA;EACA,yBAAA;AACJ;;AAGA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yBAAA;AAAJ;;AAGA;EACI,aAAA;EACA,8BAAA;EACA,UAAA;AAAJ;;AAIA;EACI,gBAAA;EACA,eAAA;EACA,oBAAA;AADJ;;AAIA;EACI,iBAAA;EACA,qBAAA;EACA,+BAAA;EACA,cAAA;EACA,oDAAA;EACA,uCAAA;AADJ;;AAIA;EACI,cAAA;EACA,wCAAA;EACA,eAAA;AADJ;;AAIA;EACI,aAAA;EACA,mBAAA;EACA,iFAAA;EACA,sBAAA;EACA,YAAA;AADJ;;AAIA;EACI,kBAAA;EACA,yBAAA;EACA,cAAA;EACA,aAAA;EACA,kBAAA;EACA,gBAAA;AADJ;;AAIA;EACI,kBAAA;AADJ;;AAIA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;AADJ;;AAIA;EACI,iBAAA;EACA,aAAA;EACA,4DAAA;EACA,cAAA;EACA,qBAAA;AADJ;;AAIA;EACI,iBAAA;EACA,0BAAA;AADJ;;AAIA;EACI,yBAAA;EACA,mBAAA;EACA,6BAAA;EACA,4BAAA;AADJ;;AAIA;EACI,yBAAA;EACA,+BAAA;EACA,gCAAA;EACA,gBAAA;EACA,aAAA;AADJ;;AAIA;EACI,eAAA;EACA,gBAAA;EACA,mBAAA;EACA,mBAAA;AADJ;;AAIA;EACI,wBAAA;AADJ;;AAKA;EACI,cAAA;EACA,mBAAA;AAFJ;;AAKA;EACI,mBAAA;AAFJ;;AAKA;EACI,yBAAA;AAFJ;;AAKA;EACI,aAAA;EACA,uBAAA;EACA,sBAAA;EACA,mBAAA;EACA,yBAAA;AAFJ;;AAKA;EACI,cAAA;EACA,aAAA;AAFJ;;AAKA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,sBAAA;EACA,yBAAA;EACA,aAAA;EACA,UAAA;AAFJ;;AAKA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,yBAAA;EACA,4BAAA;EACA,6BAAA;EACA,kBAAA;EACA,YAAA;AAFJ;;AAKA;EACI,aAAA;AAFJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');\n* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    display: grid;\n    grid-template-rows: 170px 6fr 150px;\n    font-family: 'Mitr', sans-serif;\n    background-color: #EEF327;\n\n}\n\nheader {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #ffffff;\n}\n\nnav {\n    display: flex;\n    justify-content: space-between;\n    width: 80%;\n\n}\n\nul {\n    list-style: none;\n    align-self: end;\n    padding-bottom: 15px;\n}\n\nli {\n    margin-left: 50px;\n    font: 1.563rem bolder;\n    font-family: 'Mitr', sans-serif;\n    color: inherit;\n    text-decoration: underline 3px rgba(109, 178, 63, 0);\n    transition: text-decoration-color 300ms;\n}\n\nli:hover {\n    color: #6DB23F;\n    text-decoration-color: rgba(109, 178, 63, 1);\n    cursor: pointer;\n}\n\n.home {\n    display: flex;\n    align-items: center;\n    background: url(\"../assets/chicken-nuggets.jpg\") no-repeat center center fixed;\n    background-size: cover;\n    height: 90vh;\n}\n\n.info-box {\n    margin-left: 300px;\n    background-color: #000000;\n    color: #ffffff;\n    opacity: .85;\n    padding: 30px 40px;\n    max-width: 700px;\n}\n\n.info-box > p {\n    font-size: 1.25rem;\n}\n\n.menu {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n}\n\n.menu-box {\n    max-width: 1500px;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));\n    grid-gap: 35px;\n    padding: 50px 0 100px ;\n}\n\n.menu-tiles {\n    /*display: flex;*/\n    /*flex-direction: column;*/\n}\n\n.menu-img {\n    border: solid 1px #cecece;\n    border-bottom: none;\n    border-top-right-radius: 25px;\n    border-top-left-radius: 25px;\n}\n\n.menu-text {\n    border: solid 1px #cecece;\n    border-bottom-left-radius: 25px;\n    border-bottom-right-radius: 25px;\n    border-top: none;\n    padding: 15px;\n}\n\nimg {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 25px;\n}\n\n.menu > h2, .menu > p {\n    /*align-self: baseline;*/\n\n}\n\nh1 {\n    color: #6DB23F;\n    font-size: 3.052rem\n}\n\nh2 {\n    font-size: 3.815rem;\n}\n\nmain {\n    background-color: #ffffff\n}\n\n.contact {\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    align-items: center;\n    background-color: #000000;\n}\n\n.contact > h2 {\n    color: #ffffff;\n    padding: 40px;\n}\n\n.contact-info {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n    background-color: #ffffff;\n    height: 890px;\n    width: 70%\n}\n\nfooter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #EEF327;\n    border-top-left-radius: 50px;\n    border-top-right-radius: 50px;\n    position: relative;\n    bottom: 40px;\n}\n\n.tab-list {\n    display: flex\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -613,6 +613,60 @@ function toggleHome() {
 
 /***/ }),
 
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "toggleMenu": () => (/* binding */ toggleMenu)
+/* harmony export */ });
+function toggleMenu() {
+    const article = document.createElement('article');
+    const menuBox = document.createElement('div');
+    const myContent = document.querySelector('#content');
+    const headerTwo = document.createElement('h2');
+    const paragraphOne = document.createElement('p');
+    menuBox.className = 'menu-box';
+    article.className = 'menu';
+    headerTwo.textContent = 'Nuggets';
+    paragraphOne.textContent = 'Our custom 100% blend, never frozen, no hormones or antibiotics ever, humanely raised and grazed in the USA';
+    article.appendChild(headerTwo);
+    article.appendChild(paragraphOne);
+    article.appendChild(menuBox);
+    myContent.removeChild(myContent.firstElementChild);
+    myContent.appendChild(article);
+
+    const menuList = [
+
+    ]
+
+
+    for (let x = 0; x < 9; x++) {
+        let menuTile = document.createElement('div');
+        menuTile.className = 'menu-tiles';
+
+        menuBox.appendChild(menuTile);
+
+        let menuImg = document.createElement('div');
+        menuImg.className = 'menu-image';
+        let image = document.createElement('img');
+        image.src = '../src/assets/menu-nuggets1.jpg';
+        image.alt = 'Delicious looking nuggets';
+        menuImg.appendChild(image);
+
+        let menuText = document.createElement('div');
+        menuText.className = 'menu-text';
+
+        menuTile.appendChild(menuImg);
+        menuTile.appendChild(menuText);
+    }
+}
+
+/***/ }),
+
 /***/ "./src/assets/chicken-nuggets.jpg":
 /*!****************************************!*\
   !*** ./src/assets/chicken-nuggets.jpg ***!
@@ -767,6 +821,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact.js */ "./src/contact.js");
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
+
 
 
 
@@ -778,6 +834,8 @@ tabList.addEventListener('click', (e) => {
         (0,_home_js__WEBPACK_IMPORTED_MODULE_2__.toggleHome)();
     } else if (e.target.id === 'contact') {
         (0,_contact_js__WEBPACK_IMPORTED_MODULE_1__.toggleContact)();
+    } else if (e.target.id === 'menu') {
+        (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.toggleMenu)();
     }
 });
 
@@ -788,4 +846,4 @@ tabList.addEventListener('click', (e) => {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle189dbccb2cd16ecd1edd.js.map
+//# sourceMappingURL=bundlefbe4c6585b42d038b453.js.map
